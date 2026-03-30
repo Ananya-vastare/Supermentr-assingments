@@ -1,0 +1,21 @@
+Assignment Name: Spam Classifier Thinking
+
+Features:
+
+    -Presence of words like "free", "win" "offer"
+    -Number of links
+    -Sender email
+    -Message length
+    -Special characters (!, $$$)
+
+Data Needed:
+
+Labeled dataset (Spam / Not Spam emails)
+
+Possible Mistakes:
+
+-False Positive: Important email marked as spam
+-False Negative: Spam not detected
+
+Conclusion:
+A good spam system balances accuracy and avoids misclassification.

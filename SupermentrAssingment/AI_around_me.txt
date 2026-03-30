@@ -1,0 +1,14 @@
+Netflix – Recommends shows using user similarity
+YouTube – Suggests videos using watch history
+Google Maps – Predicts traffic using past data
+Gmail – Spam detection using classification models
+Amazon – Product recommendations using ML
+Spotify – Music recommendations using user taste
+Instagram – Feed ranking using engagement
+Siri/Alexa – Voice recognition using NLP
+Uber – Price prediction using demand data
+Google Search – Ranking results using ML
+
+
+
+

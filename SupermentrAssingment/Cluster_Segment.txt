@@ -1,0 +1,32 @@
+Description: Perform K-Means clustering on a mall dataset and describe customer groups
+
+Answer:
+
+Steps Performed:
+
+Loaded the mall customer dataset (Age, Income, Spending Score)
+Selected relevant features (Annual Income & Spending Score)
+Applied K-Means clustering algorithm
+Used the Elbow Method to find optimal number of clusters (K = 5)
+Visualized clusters using scatter plot
+
+Customer Groups Identified:
+
+1) High Income – High Spending
+    a)Premium customers
+    b)Target for luxury products
+2) High Income – Low Spending
+    a)Potential customers
+    b)Need marketing strategies to increase spending
+3)Low Income – High Spending
+    a)Impulsive buyers
+    b)Offer discounts and deals
+4)Low Income – Low Spending
+    a)Least valuable segment
+    b)Minimal targeting required
+5)Average Income – Average Spending
+    a)Regular customers
+    b)Maintain engagement
+
+Conclusion:
+K-Means clustering helps businesses understand customer behavior and target specific groups effectively for marketing and sales strategies.

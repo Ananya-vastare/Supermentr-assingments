@@ -1,0 +1,17 @@
+Assignment Name: Data Doctor
+
+Answer:
+
+Steps for Data Cleaning:
+
+   - Handle missing values (fill/remove)
+   - Remove duplicate rows
+   - Standardize text (lowercase, remove spaces)
+   - Fix inconsistent formats
+
+Why Cleaning Matters:
+
+   - Improves model accuracy
+   - Removes noise
+   - Ensures reliable results
+   - Prevents wrong insights
