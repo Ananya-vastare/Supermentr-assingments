@@ -1,0 +1,31 @@
+Assignment (11/04/2026) — Detection Brainstorm
+📌 5 Use Cases of Face/Object Detection
+Face Unlock (phones/laptops)
+Surveillance Systems (security cameras)
+Autonomous Vehicles (detect pedestrians, cars)
+Retail Analytics (customer tracking)
+Healthcare Monitoring (detect patient movement)
+💡 Designed Solution: Smart Attendance System
+📌 Problem
+
+Manual attendance is time-consuming and prone to errors.
+
+🚀 Solution
+
+Use face detection + recognition to automate attendance.
+
+⚙️ Workflow
+Capture live video using camera
+Detect faces using OpenCV / Haar Cascade
+Recognize faces using trained model
+Mark attendance in database
+Generate report
+🧰 Tech Stack
+Python
+OpenCV
+Face Recognition Library
+SQLite / Firebase
+🌟 Benefits
+Saves time
+Reduces proxy attendance
+Fully automated
