@@ -1,0 +1,24 @@
+#3rd April
+
+import nltk
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+from collections import Counter
+
+nltk.download('punkt')
+nltk.download('stopwords')
+
+def extract_keywords(text, top_n=5):
+    stop_words = set(stopwords.words('english'))
+    
+    words = word_tokenize(text.lower())
+    filtered_words = [word for word in words if word.isalnum() and word not in stop_words]
+    
+    word_freq = Counter(filtered_words)
+    keywords = word_freq.most_common(top_n)
+    
+    return keywords
+
+# Example
+text = "Artificial Intelligence is transforming the world with machine learning and deep learning technologies."
+print(extract_keywords(text))
