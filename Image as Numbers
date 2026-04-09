@@ -1,0 +1,8 @@
+April 6th 2026
+import cv2
+# Load image
+image = cv2.imread('image.jpg')
+# Print details
+print("Shape:", image.shape)
+print("Pixel value at (0,0):", image[0][0])
+print("Total pixels:", image.size)
